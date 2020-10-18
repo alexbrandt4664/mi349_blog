@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Alex's Blog</title>
+    </head>
+    <body>
+        <header>
+            <h1>Alex Brandt's Blog</h1>
+            <p><a href="https://github.com/alexbrandt4664">My GitHub</a>    <a href="https://www.linkedin.com/in/alexander-brandt-a99662185/">My LinkedIn</a></p>
+        </header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="contact.html">Contact Me</a>
+        </nav>
+        <form>
+            <label>Name:
+                <input name="contact_name" autocomplete="name">
+            </label>
+        </form>
+        <form>
+            <label>Email:
+                <input name="contact_email" autocomplete="email">
+            </label>
+        </form>
+        <form>
+            <label>Reason for Contact:
+                <select name="contact_reason">
+                    <option value="value1">Saying Hi</option>
+                    <option value="value2">Looking for a Contractor</option>
+                    <option value="value3">Interested in an Interview</option>
+                </select>
+            </label>
+        </form>
+        <form>
+            <label>Additional Comments</label>
+            <br>
+            <textarea id="comments" rows="20" cols="75"></textarea>
+        </form>
+        <form>
+            <button>Submit</button>
+        </form>
+    </body>
+</html>
