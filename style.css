@@ -11,6 +11,14 @@ body {
     background: #ffffff;
 }
 
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    height: 118px;
+}
+
 h1 {
     font-size: 3em;
     margin: 0;
@@ -18,20 +26,26 @@ h1 {
 
 p {
     line-height: 1.4em;
-    width: 300px;
-    margin: 20px;
+    width: 500px;
 }
 
 #blog {
     border-top: 1px dotted #ccc;
+    display: flex;
 }
 
 .blog_post {
     border-bottom: 1px dotted #ccc;
+    background: #e3e3e3;
+    margin: 20px;
+    margin-left: 15px;
+    padding: 10px;
 }
 
 img[src="me.jpg"] {
-    border: 2px ridge #242424;
+    border: 2px ridge #242424;   
+    float: left;
+    margin-right: 20px;
 }
 
 a {
