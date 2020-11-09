@@ -69,3 +69,44 @@ nav {
 #about_me {
     margin-top: 35px;
 }
+
+/* Media Queries */
+@media (max-width: 400px) {
+
+    body {
+        padding: 20px;
+    }
+
+    p {
+        width: 200px;
+    }
+
+    #blog {
+        flex-direction: column;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header {
+        height: fit-content;
+        margin-bottom: -20px;
+    }
+
+    img {
+        width: 200px;
+        height: 333px;
+    }
+
+    #comments_form {
+        max-width: 260px;
+        min-width: 260px;
+        width: 100%;
+    }
+
+    textarea {
+        width: 100%;
+    }
+}
